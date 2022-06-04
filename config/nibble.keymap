@@ -46,14 +46,14 @@
 				rgb_layer {
 			label = "RGB";
 			
-			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+			sensor-bindings = <&rgb_ug RGB_HUD RGB_HUI>;
 
 			bindings = <
-            &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
-&trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
-&trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans              &trans   &trans
-&trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
-&trans      &trans    &trans    &trans                        &trans                        &trans    &trans    &trans    &trans              &trans   &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
+&rgb_ug RGB_TOG &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
+&trans          &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans              &trans   &trans
+&trans          &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
+&trans          &trans    &trans    &trans                        &trans                        &trans    &trans    &trans    &trans              &trans   &trans
 			>;
 		};
 	};
