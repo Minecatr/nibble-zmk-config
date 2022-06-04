@@ -33,7 +33,7 @@
 		function_layer {
 			label = "Function";
 			
-			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+			sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
 
 			bindings = <
             &kp GRAVE &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12   &trans   &trans
@@ -46,7 +46,7 @@
 				rgb_layer {
 			label = "RGB";
 			
-			sensor-bindings = <&rgb_ug RGB_HUD RGB_HUI>;
+			sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
 
 			bindings = <
                 &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
