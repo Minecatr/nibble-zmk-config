@@ -40,20 +40,7 @@
 &bootloader &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
 &bt BT_CLR  &kp CLCK  &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans              &trans   &kp HOME
 &bt BT_PRV  &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &kp END
-&bt BT_NXT  &trans    &trans    &trans                        &trans                        &mo 2     &trans    &trans    &kp C_PREV          &kp C_PP &kp C_NEXT
-			>;
-		};
-				rgb_layer {
-			label = "RGB";
-			
-			sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
-
-			bindings = <
-                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
-&trans          &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
-&trans          &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans              &trans   &trans
-&trans          &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans   &trans
-&trans          &trans    &trans    &trans                        &trans                        &trans    &trans    &trans    &trans              &trans   &trans
+&bt BT_NXT  &trans    &trans    &trans                        &trans                        &trans    &trans    &trans    &kp C_PREV          &kp C_PP &kp C_NEXT
 			>;
 		};
 	};
