@@ -29,7 +29,7 @@
 &kp C_MUTE  &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH &kp DEL
 &kp F3      &kp BSPC  &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT             &kp RET  &kp PG_UP
 &kp GRAVE   &kp LSHFT &trans    &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
-&trans      &kp LCTRL &kp LGUI  &kp LALT                      &kp SPACE                     &kp RALT  &mo 1     &kp RCTRL &kp LEFT            &kp DOWN &kp RIGHT
+&trans      &kp LCTRL &kp LGUI  &kp LALT                      &kp SPACE                     &kp RALT  &to 1     &kp RCTRL &kp LEFT            &kp DOWN &kp RIGHT
 			>;
 		};
 		function_layer {
@@ -42,7 +42,7 @@
 &rgb_ug RGB_TOG &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans          &trans    &trans    &trans    &trans        &trans
 &bt BT_CLR      &kp CLCK  &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans          &trans    &trans              &trans        &kp HOME
 &bt BT_PRV      &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &rgb_ug RGB_HUD &rgb_ug RGB_HUI  &trans    &trans    &trans        &kp END
-&bt BT_NXT      &trans    &trans    &trans                        &trans              &trans    &mo 0     &trans          &kp C_PREV          &kp C_PP &kp C_NEXT
+&bt BT_NXT      &trans    &trans    &trans                        &trans              &trans    &to 0     &trans          &kp C_PREV          &kp C_PP &kp C_NEXT
 			>;
 		};
 	};
